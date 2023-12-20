@@ -102,7 +102,7 @@ function App() {
         break;
       case 16:
         setBan("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A ban");
         break;
       case 17:
         setPick("A");
