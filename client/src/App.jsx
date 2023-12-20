@@ -192,6 +192,7 @@ function App() {
     socket.on("quitRoom", () => {
       setIsWaiting(() => true);
       setPhase(0);
+      setChars(characters);
       setPickCardsByA([]);
       setPickCardsByB([]);
       setBanCardsByA([]);
