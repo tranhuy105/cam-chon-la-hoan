@@ -21,7 +21,7 @@ const SelectBoard = ({
   }, [search, chars]);
 
   return (
-    <div className="mt-8 h-full pb-24">
+    <div className="mt-2 h-full pb-24">
       <div className="w-full px-4 py-2 flex items-center justify-between relative">
         <input
           type="text"
