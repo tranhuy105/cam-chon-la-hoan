@@ -9,11 +9,12 @@ app.use(cors());
 
 const server = http.createServer(app);
 
-const PORT = process.env.port || 3000;
+const PORT = process.env.port || 3001;
 
 const io = new Server(server, {
   cors: {
     origin: "https://cam-chon-la-hoan.onrender.com",
+    // origin: "http://localhost:5173",
     methods: ["GET", "POST"],
   },
 });
@@ -118,6 +119,6 @@ io.on("connection", (socket) => {
   });
 });
 
-server.listen(3001, () => {
+server.listen(PORT, () => {
   console.log("SERVER LISTENING ON PORT 3001");
 });

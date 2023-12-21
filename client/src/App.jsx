@@ -42,99 +42,99 @@ function App() {
     switch (phase) {
       case 1:
         setBan("A");
-        setNote("Đến lượt A ban");
+        setNote("Đến lượt A cấm");
         break;
       case 2:
         setBan("B");
-        setNote("Đến lượt B ban");
+        setNote("Đến lượt B cấm");
         break;
       case 3:
         setBan("A");
-        setNote("Đến lượt A ban");
+        setNote("Đến lượt A cấm");
         break;
       case 4:
         setBan("B");
-        setNote("Đến lượt B ban");
+        setNote("Đến lượt B cấm");
         break;
       case 5:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 6:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 7:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 8:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 9:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 10:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 11:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 12:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 13:
         setBan("B");
-        setNote("Đến lượt B ban");
+        setNote("Đến lượt B cấm");
         break;
       case 14:
         setBan("A");
-        setNote("Đến lượt A ban");
+        setNote("Đến lượt A cấm");
         break;
       case 15:
         setBan("B");
-        setNote("Đến lượt B ban");
+        setNote("Đến lượt B cấm");
         break;
       case 16:
         setBan("A");
-        setNote("Đến lượt A ban");
+        setNote("Đến lượt A cấm");
         break;
       case 17:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 18:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 19:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 20:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 21:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       case 22:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 23:
         setPick("B");
-        setNote("Đến lượt B pick");
+        setNote("Đến lượt B chọn");
         break;
       case 24:
         setPick("A");
-        setNote("Đến lượt A pick");
+        setNote("Đến lượt A chọn");
         break;
       default:
         // Default case code (if needed)

@@ -15,7 +15,7 @@ const CharLogo = ({
 
   return (
     <div
-      className={`h-18 w-18 p-1 flex items-center justify-center hover:scale-110 border border-contessa-200 hover:border-contessa-500 transition ${
+      className={`max-h-18 max-w-18 p-1 flex items-center justify-center hover:scale-110 border border-contessa-200 hover:border-contessa-500 transition ${
         isBan ? "cursor-not-allowed" : "cursor-pointer"
       } ${rarity === 5 ? "bg-yellow-300/70" : "bg-purple-300/70"} ${
         currentPick === char ? "border-contessa-500 border-2" : ""
